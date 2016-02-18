@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="digitalalpha.mlab2frag.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/about"
+        android:textAlignment="center"
+        android:textColor="#00e676"
+        android:textIsSelectable="false"
+        android:textSize="@android:dimen/app_icon_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="This is the about text
+        new line is here
+        anotehr new line"
+        android:id="@+id/textView"
+        android:layout_gravity="center" />
+
+</FrameLayout>
