@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <fragment
+        android:name="digitalalpha.mlab2frag.ListFragment"
+        android:id="@+id/fList"
+        android:layout_width="241dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_list"
+        />
+
+    <fragment
+        android:name="digitalalpha.mlab2frag.AboutFragment"
+        android:id="@+id/fRight"
+        android:layout_width="0dp"
+        android:layout_height="137dp"
+        tools:layout="@layout/fragment_about"
+        />
 
 </LinearLayout>
 
