@@ -12,7 +12,7 @@
     <fragment
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="digitalalpha.mlab2frag.ContactFragment"
+        android:name="digitalalpha.mlab2frag.ListFragment"
         android:id="@+id/fMain"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
