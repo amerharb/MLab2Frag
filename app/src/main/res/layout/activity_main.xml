@@ -13,20 +13,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:name="digitalalpha.mlab2frag.ContactFragment"
-        android:id="@+id/fContact"
+        android:id="@+id/fMain"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         tools:layout="@layout/fragment_contact"
-        />
-
-    <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:name="digitalalpha.mlab2frag.AboutFragment"
-        android:id="@+id/fAbout"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        tools:layout="@layout/fragment_about"
         />
 
 
