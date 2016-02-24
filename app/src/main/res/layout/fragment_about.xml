@@ -7,7 +7,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="75dp"
         android:text="@string/about"
         android:textAlignment="center"
         android:textColor="#00e676"
@@ -15,20 +15,10 @@
         android:textSize="@android:dimen/app_icon_size" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="134dp"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="This is the about text
-        new line is here
-        anotehr new line"
-        android:id="@+id/textView"
-        android:layout_gravity="center" />
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New RadioButton"
-        android:id="@+id/textViewbbb"
+        android:text="This is the about text\nnew line is here\nanotehr new line"
         android:layout_gravity="center_horizontal|bottom" />
 
 </FrameLayout>
