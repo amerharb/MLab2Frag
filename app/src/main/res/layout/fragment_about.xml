@@ -3,8 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="digitalalpha.mlab2frag.AboutFragment">
+    android:id="@+id/fAbout">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -23,5 +23,12 @@
         anotehr new line"
         android:id="@+id/textView"
         android:layout_gravity="center" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New RadioButton"
+        android:id="@+id/textViewbbb"
+        android:layout_gravity="center_horizontal|bottom" />
 
 </FrameLayout>
